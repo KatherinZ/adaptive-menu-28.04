@@ -1,4 +1,63 @@
 @import "reset.css";
+
+@font-face {
+  font-family: "Hagrid Regular";
+  font-weight: auto;
+  src: url(../font/Hagrid-Regular.ttf)
+  format('truetype');
+}
+@font-face {
+  font-family: "Hagrid Bold";
+  font-weight: auto;
+  src: url(../font/Hagrid-Bold.otf)
+  format('opentype');
+}
+@font-face {
+  font-family: "Hagrid Medium";
+  font-weight: auto;
+  src: url(../font/Hagrid-Medium.otf)
+  format('opentype');
+}
 body{
-  background-color: #E5E5E5;
+  background-color: #01758C;
+  font-family: "Hagrid Regular";
+
+}
+.top_line{
+  color: #FFF;
+
+  padding: 2vw;
+
+}
+.top_line h2{
+  font-size: 2vw;
+  display: flex;
+  flex-direction: column;
+}
+.top_line .menu {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 1.5vw;
+}
+
+.bottom_line{
+  color: #FFF;
+  margin-top: 32vw;
+  padding: 1.5vw;
+  display: flex;
+  font-size: 2vw;
+  justify-content: space-between;
+}
+h2:hover, p:hover{
+  color: #ff2f00;
+  transition: ease-in-out 100ms all;
+}
+
+.mon_sketch{
+  position: absolute;
+}
+
+.mon_sketch {
+  display: none;
 }
