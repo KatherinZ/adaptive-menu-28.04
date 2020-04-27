@@ -1,0 +1,119 @@
+@import "reset.css";
+
+@font-face {
+  font-family: "Hagrid Regular";
+  font-weight: auto;
+  src: url(../font/Hagrid-Regular.ttf)
+  format('truetype');
+}
+@font-face {
+  font-family: "Hagrid Bold";
+  font-weight: auto;
+  src: url(../font/Hagrid-Bold.otf)
+  format('opentype');
+}
+@font-face {
+  font-family: "Hagrid Medium";
+  font-weight: auto;
+  src: url(../font/Hagrid-Medium.otf)
+  format('opentype');
+}
+body{
+  background-color: #000;
+  font-family: "Hagrid Regular";
+
+}
+.top_line{
+  position: absolute;
+  color: #FFF;
+  display: flex;
+  padding: 2vw;
+
+}
+.top_line h2{
+  font-size: 1.5vw;
+}
+.top_line .menu {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 1.5vw;
+  margin-left: 40vw;
+}
+.top_line .menu a{
+  text-decoration: none;
+  color: #FFF;
+}
+.top_line .menu p{
+  padding-left: 3vw;
+}
+.top_line img{
+  width: 2vw;
+  height: auto;
+  display: none;
+  margin-left: 40vw;
+}
+.mobile_menu{
+  position: absolute;
+  top: 0vw;
+  width: 100vw;
+  height: 100vw;
+  background-color: #000;
+  font-size: 6vw;
+  display: none;
+}
+.mobile_menu a{
+  text-decoration: none;
+}
+.mobile_menu p{
+  color: #fff;
+  width: 5vw;
+  padding-left: 10vw;
+  padding-top: 5vw;
+}
+
+
+.bottom_line{
+  color: #FFF;
+  margin-top: 32vw;
+  padding: 1.5vw;
+  display: flex;
+  font-size: 2vw;
+  justify-content: space-between;
+}
+p:hover{
+  color: #ff2f00;
+  transition: ease-in-out 100ms all;
+}
+
+
+@media (max-width: 1024px) {
+.top_line .menu, h2{
+    font-size: 2.5vw;
+  }
+}
+@media (max-width: 414px) {
+  .top_line  h2{
+    font-size: 5vw;
+    padding-top: 5.4vw;
+  }
+  .top_line img{
+    display: block;
+    width: 8vw;
+    padding: 5vw;
+    height: auto;
+    padding-right: 3vw;
+  }
+  .mobile_menu img{
+    width: 8vw;
+    padding-left: 6vw;
+    padding-top: 7vw;
+    margin-left: 80vw;
+  }
+  .top_line .menu{
+    display: none;
+  }
+  .mobile_menu{
+    display: none;
+  }
+}
