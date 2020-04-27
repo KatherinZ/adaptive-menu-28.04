@@ -24,6 +24,7 @@ body{
 
 }
 .top_line{
+  background-color: #000;
   position: absolute;
   color: #FFF;
   display: flex;
@@ -64,11 +65,12 @@ body{
 }
 .mobile_menu a{
   text-decoration: none;
+}
+.mobile_menu p{
   color: #fff;
   width: 5vw;
   padding-left: 10vw;
   padding-top: 5vw;
-
 }
 
 
@@ -80,7 +82,7 @@ body{
   font-size: 2vw;
   justify-content: space-between;
 }
-h2:hover, p:hover{
+ p:hover{
   color: #ff2f00;
   transition: ease-in-out 100ms all;
 }

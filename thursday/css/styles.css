@@ -40,6 +40,10 @@ body{
   font-size: 1.5vw;
   margin-left: 40vw;
 }
+.top_line .menu a{
+  text-decoration: none;
+  color: #FFF;
+}
 .top_line .menu p{
   padding-left: 3vw;
 }
@@ -58,12 +62,14 @@ body{
   font-size: 6vw;
   display: none;
 }
+.mobile_menu a{
+  text-decoration: none;
+}
 .mobile_menu p{
   color: #fff;
   width: 5vw;
   padding-left: 10vw;
   padding-top: 5vw;
-
 }
 
 
@@ -75,13 +81,11 @@ body{
   font-size: 2vw;
   justify-content: space-between;
 }
-h2:hover, p:hover{
+p:hover{
   color: #ff2f00;
   transition: ease-in-out 100ms all;
 }
-h2:focus, p:focus{
-  color: rgba(255, 255, 255, 0.5)
-}
+
 
 @media (max-width: 1024px) {
 .top_line .menu, h2{

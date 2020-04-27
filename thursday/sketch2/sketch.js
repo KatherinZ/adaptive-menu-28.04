@@ -29,9 +29,9 @@ function draw() {
   background(220);
   noStroke()
   fill(6, 0, 59)
-  rect(0, 0, width, 350)
+  rect(0, 0, width, height)
   fill(0, 255, 229)
-  rect(0, 350, width, 150)
+  rect(0, 350, width, height)
 
 
   //sun
